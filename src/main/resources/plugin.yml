@@ -1,0 +1,11 @@
+name: mute
+version: '${project.version}'
+main: com.github.ringoame196.mute.Mute
+
+commands:
+  mute:
+    description: プレイヤーをミュートにする
+    usage: /mute <プレイヤー>
+  unmute:
+    description: プレイヤーのミュートを解除する
+    usage: /unmute <プレイヤー>
